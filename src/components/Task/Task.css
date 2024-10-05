@@ -1,0 +1,23 @@
+.single-task {
+  border: 1px solid grey;
+  margin: 0.5rem;
+
+  justify-content: space-between;
+  display: flex;
+  border-radius: 6px;
+  .checkbox-div {
+    margin: 0.5rem;
+    span {
+      margin: 0 0.5rem;
+    }
+  }
+
+  .delete-div {
+    margin: auto 0.5rem;
+    font-size: 1.25rem;
+  }
+}
+
+.selected {
+  background-color: lightyellow;
+}

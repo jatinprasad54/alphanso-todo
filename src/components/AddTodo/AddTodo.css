@@ -1,0 +1,25 @@
+.addTodo-div {
+  padding: 0.5rem;
+  width: 100%;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0.5rem;
+    input {
+      height: 1.85rem;
+      border-radius: 6px;
+      border: 1px solid grey;
+    }
+    button {
+      padding: 0.5rem 0;
+      border-radius: 6px;
+      border: 1px solid grey;
+      background-color: black;
+      color: white;
+    }
+    button:disabled {
+      background-color: grey;
+    }
+  }
+}

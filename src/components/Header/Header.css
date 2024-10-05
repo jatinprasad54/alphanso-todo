@@ -1,0 +1,36 @@
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+
+  h2 {
+    margin: 0 0.5rem;
+  }
+
+  input {
+    min-width: 200px;
+    width: 50%;
+    margin: 0 1rem;
+    border-radius: 11px;
+    border: 1px solid grey;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0.5rem;
+    button {
+      border-radius: 6px;
+      border: 1px solid grey;
+      color: white;
+      background: darkgrey;
+    }
+    .selected {
+      background-color: lightgreen !important;
+    }
+  }
+}

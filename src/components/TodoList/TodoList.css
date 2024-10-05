@@ -1,0 +1,13 @@
+.todoList-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.noTask-div {
+  padding: 0.5rem;
+  h2 {
+    margin: 0;
+  }
+}
